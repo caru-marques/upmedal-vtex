@@ -1,15 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "tab-layout#home",
+      "slider-layout#home",
+      "modal-trigger#first",
+      "list-context.product-list"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }
+  

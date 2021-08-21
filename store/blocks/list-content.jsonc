@@ -1,0 +1,28 @@
+{
+    "list-context.product-list": {
+      "blocks": ["product-summary.shelf#home2"],
+      "children": ["slider-layout"]
+    },
+    "product-summary.shelf#home2": {
+      "children": [
+        "modal-trigger#quickview2",
+        "product-summary-name"
+        // "product-selling-price"
+      ]
+    },
+    "modal-trigger#quickview2": {
+      "children": [
+          "product-summary-image", 
+          "modal-layout#quickview2"
+        ]
+    },
+    "modal-layout#quickview2": {
+      "children": [
+        "product-summary-name",
+        "product-images",
+        "product-summary-sku-selector",
+        "product-summary-quantity",
+        "add-to-cart-button"
+      ]
+    }
+}

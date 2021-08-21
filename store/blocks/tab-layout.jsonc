@@ -1,0 +1,190 @@
+{
+    "tab-layout#home": {
+        "children": [
+          "tab-list#home",
+          "tab-content#home"
+        ]
+      },
+      "tab-list#home": {
+        "props":{
+          "children": [
+            "tab-list.item#home1",
+            "tab-list.item#home2",
+            "tab-list.item#home3",
+            "tab-list.item#home4",
+            "tab-list.item#home5",
+            "tab-list.item#home6",
+            "tab-list.item#home7"
+          ],
+          "blockClass":"tab-list"
+        }
+      },
+      "tab-list.item#home1": {
+        "props": {
+          "tabId": "promocao",
+          "label": "PROMOÇÃO",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#home2": {
+        "props": {
+          "tabId": "corinthians",
+          "label": "CORINTHIANS"
+        }
+      },
+      "tab-list.item#home3": {
+        "props": {
+          "tabId": "palmeiras",
+          "label": "PALMEIRAS"
+        }
+      },
+      "tab-list.item#home4": {
+        "props": {
+          "tabId": "signos",
+          "label": "SIGNOS"
+        }
+      },
+      "tab-list.item#home5": {
+        "props": {
+          "tabId": "divertidos",
+          "label": "DIVERTIDOS"
+        }
+      },
+      "tab-list.item#home6": {
+        "props": {
+          "tabId": "maravilhas",
+          "label": "7 MARAVILHAS"
+        }
+      },
+      "tab-list.item#home7": {
+        "props": {
+          "tabId": "guerreiros",
+          "label": "GUERREIROS"
+        }
+      },
+      "tab-content#home": {
+        "children": [
+          "tab-content.item#home1",
+          "tab-content.item#home2",
+          "tab-content.item#home3",
+          "tab-content.item#home4",
+          "tab-content.item#home5",
+          "tab-content.item#home6",
+          "tab-content.item#home7"
+        ]
+      },
+    
+      "tab-content.item#home1": {
+        "children": [
+          "rich-text#home1"
+        ],
+        "props": {
+          "tabId": "promocao"
+        }
+      },
+      
+      "tab-content.item#home2": {
+        "children": [
+          "rich-text#home2"
+        ],
+        "props": {
+          "tabId": "corinthians"
+        }
+      },
+      
+      "tab-content.item#home3": {
+        "children": [
+          "rich-text#home3"
+        ],
+        "props": {
+          "tabId": "palmeiras"
+        }
+      },
+      
+      "tab-content.item#home4": {
+        "children": [
+          "rich-text#home4"
+        ],
+        "props": {
+          "tabId": "signos"
+        }
+      },
+      
+      "tab-content.item#home5": {
+        "children": [
+          "rich-text#home5"
+        ],
+        "props": {
+          "tabId": "divertido"
+        }
+      },
+      
+      "tab-content.item#home6": {
+        "children": [
+          "rich-text#home6"
+        ],
+        "props": {
+          "tabId": "maravilhas"
+        }
+      },
+      
+      "tab-content.item#home7": {
+        "children": [
+          "rich-text#home7"
+        ],
+        "props": {
+          "tabId": "guerreiros"
+        }
+      },
+    
+      "rich-text#home1": {
+        "props": {
+          "text": "Promoção",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      
+      "rich-text#home2": {
+        "props": {
+          "text": "Corinthians",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      "rich-text#home3": {
+        "props": {
+          "text": "Texto",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      "rich-text#home4": {
+        "props": {
+          "text": "Texto",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      "rich-text#home5": {
+        "props": {
+          "text": "Texto",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      "rich-text#home6": {
+        "props": {
+          "text": "Texto",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      },
+      "rich-text#home7": {
+        "props": {
+          "text": "Texto",
+          "textPositiona": "CENTER",
+          "font": "serif"
+        }
+      }
+    }
